@@ -4,6 +4,8 @@ import {Button, Container, Nav, Navbar} from "react-bootstrap";
 import {NavLink} from "react-router-dom";
 import {SHOP_ROUTE} from "../utils/consts";
 import {observer} from "mobx-react-lite";
+import style from "./NavBar.module.css";
+
 
 
 const NavBar =observer(() => {
@@ -15,7 +17,7 @@ const NavBar =observer(() => {
                 {user.isAuth ?
                     <Nav className="ml-auto" style={{color: 'white'}}>
                         <Button variant={'outline-light'}>Admin</Button>
-                        <Button variant={'outline-light'} className="ml-2">Logout</Button>
+                        <Button variant={'outline-light'} className={style.button}>Logout</Button>
                     </Nav>
                     :
                     <Nav className="ml-auto" style={{color: 'white'}}>

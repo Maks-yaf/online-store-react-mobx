@@ -12,9 +12,7 @@ root.render(
         user: new UserStore(),
         device: new DeviceStore(),
     }}>
-        <React.StrictMode>
             <App />
-        </React.StrictMode>
     </Context.Provider>
 
 )
