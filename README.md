@@ -1,5 +1,5 @@
-# Не забудь поставить звезду
+# Don't forget to put a star
 
-## npm run dev - запуск сервера
+## npm run dev - start server
 
-## npm start - запуск клиента
+## npm start - start client 
