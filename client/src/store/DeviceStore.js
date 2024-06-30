@@ -19,9 +19,9 @@ export default  class DeviceStore {
             { id: 1, name: "Iphone 12 pro", price: 1000, rating: 5, img: 'https://prod-api.mediaexpert.pl/api/images/gallery_500_500/thumbnails/images/58/5860220/Smartfon-APPLE-iPhone-15-128GB-5G-6-1-Czarny-front-tyl-3.jpg'},
             { id: 2, name: "Iphone 13 pro", price: 1000, rating: 4.5, img: 'https://prod-api.mediaexpert.pl/api/images/gallery_500_500/thumbnails/images/58/5860220/Smartfon-APPLE-iPhone-15-128GB-5G-6-1-Czarny-front-tyl-3.jpg'},
             { id: 3, name: "Iphone 14 pro", price: 1000, rating: 3, img: 'https://prod-api.mediaexpert.pl/api/images/gallery_500_500/thumbnails/images/58/5860220/Smartfon-APPLE-iPhone-15-128GB-5G-6-1-Czarny-front-tyl-3.jpg'},
-            { id: 4, name: "Iphone 15 pro", price: 1000, rating: 2, img: 'https://prod-api.mediaexpert.pl/api/images/gallery_500_500/thumbnails/images/58/5860220/Smartfon-APPLE-iPhone-15-128GB-5G-6-1-Czarny-front-tyl-3.jpg'},
-            { id: 5, name: "Iphone 15 pro", price: 1000, rating: 2, img: 'https://prod-api.mediaexpert.pl/api/images/gallery_500_500/thumbnails/images/58/5860220/Smartfon-APPLE-iPhone-15-128GB-5G-6-1-Czarny-front-tyl-3.jpg'},
-            { id: 6, name: "Iphone 15 pro", price: 1000, rating: 2, img: 'https://prod-api.mediaexpert.pl/api/images/gallery_500_500/thumbnails/images/58/5860220/Smartfon-APPLE-iPhone-15-128GB-5G-6-1-Czarny-front-tyl-3.jpg'},
+            { id: 4, name: "Iphone 11 pro", price: 1000, rating: 2, img: 'https://prod-api.mediaexpert.pl/api/images/gallery_500_500/thumbnails/images/58/5860220/Smartfon-APPLE-iPhone-15-128GB-5G-6-1-Czarny-front-tyl-3.jpg'},
+            { id: 5, name: "Iphone 10 pro", price: 1000, rating: 4, img: 'https://prod-api.mediaexpert.pl/api/images/gallery_500_500/thumbnails/images/58/5860220/Smartfon-APPLE-iPhone-15-128GB-5G-6-1-Czarny-front-tyl-3.jpg'},
+            { id: 6, name: "Iphone 13 pro", price: 1000, rating: 2, img: 'https://prod-api.mediaexpert.pl/api/images/gallery_500_500/thumbnails/images/58/5860220/Smartfon-APPLE-iPhone-15-128GB-5G-6-1-Czarny-front-tyl-3.jpg'},
         ]
         this._selectedType = {}
         this._selectedBrand = {}
