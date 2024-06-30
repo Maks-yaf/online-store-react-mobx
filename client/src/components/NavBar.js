@@ -13,7 +13,7 @@ const NavBar =observer(() => {
     return (
         <Navbar bg="dark" data-bs-theme="dark">
             <Container>
-                <NavLink style={{color: 'white'}} to={SHOP_ROUTE}>BY DEVICE</NavLink>
+                <h2><NavLink style={{color: 'white', textDecoration: 'none'}} to={SHOP_ROUTE}>ByDevice</NavLink></h2>
                 {user.isAuth ?
                     <Nav className="ml-auto" style={{color: 'white'}}>
                         <Button variant={'outline-light'}>Admin</Button>
