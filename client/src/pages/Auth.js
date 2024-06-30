@@ -11,18 +11,17 @@ const Auth = () => {
     return (
         <Container
             className={style.authContainer}
-            style={{height: window.innerHeight - 1000}}
         >
             <Card style={{width: 600}} className="p-5">
                 <h2 className={'m-auto'}>{isLogin ? "Login" : "Registration"}</h2>
                 <Form className={'d-flex flex-column'}>
                     <Form.Control
                         className={"mt-3"}
-                        placeholder="put email..."
+                        placeholder="Put email..."
                     />
                     <Form.Control
                         className={"mt-3"}
-                        placeholder="put password..."
+                        placeholder="Put password..."
                     />
                     <Row>
                         <div className={style.row}>
