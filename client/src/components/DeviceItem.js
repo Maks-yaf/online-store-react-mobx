@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 import {DEVICE_ROUTE} from "../utils/consts";
 
 const DeviceItem = ({device}) => {
+    debugger;
     const navigate = useNavigate()
     return (
         <Col md={3} onClick={() => navigate(DEVICE_ROUTE + '/' + device.id)}>
